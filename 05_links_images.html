@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Links & Images</title>
+    <!-- 可選 : HTML <base> 標籤 (tag) - 設定網頁中連結的 base URL, base target -->
+    <!-- https://www.fooish.com/html/base-tag.html -->
+    <base target="_blank" />
+  </head>
+  <body>
+    <!-- 外部連結 (External link) -->
+    <!-- a tag 是 inline element , p 是 block element -->
+    <p>
+      <a href="http://google.com">Click For Google</a>
+    </p>
+    <p>
+      <a href="http://google.com" target="_blank">Click For Google</a>
+    </p>
+
+    <!-- 內部連結 (Internal link) -->
+    <p>
+      <a href="/04._typography.html">Typography</a>
+    </p>
+
+    <!-- Local image (只設定寬度的話，高度會預設auto)-->
+    <img src="/images/sample.jpg" alt="/My Image" width="200" />
+
+    <!-- Remote image -->
+    <img
+      src="https://source.unsplash.com/200x200/?nature,water"
+      alt="My Image 2"
+    />
+  </body>
+</html>
